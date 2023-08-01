@@ -1,7 +1,7 @@
 import requests
 import pandas as pd 
 
-url = 'https://web.archive.org/web/20200318083015/https://en.wikipedia.org/wiki/List_of_largest_banks'
+url = "http://api.exchangeratesapi.io/v1/latest?base=EUR&access_key=t3gW84nq0nMOreLLBmaM4AdgIWQx1YFO"
 response = requests.get(url)
 
 if response.status_code == 200:
